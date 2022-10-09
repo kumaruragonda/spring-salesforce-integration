@@ -4,6 +4,7 @@ salesforce:
     subject: SALESFORCE_USER
     audience: https://login.salesforce.com
     expiration-in-minutes: 5
+    refresh-token-in-minutes: 60
 spring:
   autoconfigure:
     exclude=org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration

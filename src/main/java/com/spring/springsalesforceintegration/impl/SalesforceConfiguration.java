@@ -28,4 +28,7 @@ public class SalesforceConfiguration {
     @Min(1)
     Integer expirationInMinutes;
 
+    @Min(1)
+    Integer refreshTokenInMinutes;
+
 }
